@@ -52,10 +52,10 @@ def Hash():
     hash5 = 300
     hash6 = hash1 +  hash2 + hash3 + hash4
     hash7 = ''
-    for i in range(leng):
-     hash6 += ''.join(random.choice(hash5))
+    for i in range(hash5):
+     hash6 += ''.join(random.choice(hash6))
 
-    print("Your special hash is:", hash6)
+    print("Your special hash is:", hash7)
 Hash()
     
     
