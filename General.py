@@ -49,9 +49,9 @@ def Hash():
     hash2 = "abcdefghijklmnopqrstuvwxyz"
     hash3 = "!£$%^&*()_+"
     hash4 = "1234567890"
-    leng = 300
-    hash5 = hash1 +  hash2 + hash3 + hash4
-    hash6 = ''
+    hash5 = 300
+    hash6 = hash1 +  hash2 + hash3 + hash4
+    hash7 = ''
     for i in range(leng):
      hash6 += ''.join(random.choice(hash5))
 
